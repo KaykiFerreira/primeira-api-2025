@@ -1,0 +1,8 @@
+@url = https://ubiquitous-invention-7gj7v444wq62p567-8080.app.github.dev/tarefa
+
+POST {{url}}
+Content-Type: application/json
+{
+    "id": 1,
+    "descricao": "Teste"
+}

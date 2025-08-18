@@ -1,7 +1,7 @@
 package application.model;
 
-import java.persistence.Entity;
-import java.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Tarefa {
-    @id
+    @Id
     private long id;
     private String descricao; 
 
